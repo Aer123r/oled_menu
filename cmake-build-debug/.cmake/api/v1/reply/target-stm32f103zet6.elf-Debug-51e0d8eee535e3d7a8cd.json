@@ -1,0 +1,2206 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "stm32f103zet6.elf"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"add_link_options",
+			"add_compile_options",
+			"add_definitions",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 65,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 61,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 62,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 63,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 29,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 30,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 36,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 49,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 55,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 52,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-mcpu=cortex-m3"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-mthumb"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-mthumb-interwork"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-fno-common"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-fmessage-length=0"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Og"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-g"
+				},
+				{
+					"fragment" : "-std=gnu11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 9,
+					"define" : "DEBUG"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "STM32F103xE"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "USE_HAL_DRIVER"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 10,
+					"path" : "/Users/wugaoyuan/Documents/PlarformIO/Projects/stm32f103ze_Mpu6050/Core/Inc"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Users/wugaoyuan/Documents/PlarformIO/Projects/stm32f103ze_Mpu6050/Drivers/STM32F1xx_HAL_Driver/Inc"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Users/wugaoyuan/Documents/PlarformIO/Projects/stm32f103ze_Mpu6050/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Users/wugaoyuan/Documents/PlarformIO/Projects/stm32f103ze_Mpu6050/Drivers/CMSIS/Device/ST/STM32F1xx/Include"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Users/wugaoyuan/Documents/PlarformIO/Projects/stm32f103ze_Mpu6050/Drivers/CMSIS/Include"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Users/wugaoyuan/Documents/PlarformIO/Projects/stm32f103ze_Mpu6050/USB_DEVICE/App"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Users/wugaoyuan/Documents/PlarformIO/Projects/stm32f103ze_Mpu6050/USB_DEVICE/Target"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Users/wugaoyuan/Documents/PlarformIO/Projects/stm32f103ze_Mpu6050/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Users/wugaoyuan/Documents/PlarformIO/Projects/stm32f103ze_Mpu6050/Middlewares/ST/STM32_USB_Device_Library/Class/AUDIO/Inc"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Users/wugaoyuan/Documents/PlarformIO/Projects/stm32f103ze_Mpu6050/User/MPU6050/eMPL"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Users/wugaoyuan/Documents/PlarformIO/Projects/stm32f103ze_Mpu6050/User/MPU6050"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Users/wugaoyuan/Documents/PlarformIO/Projects/stm32f103ze_Mpu6050/User/SH1106"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Users/wugaoyuan/Documents/PlarformIO/Projects/stm32f103ze_Mpu6050/User/SH1106/menu"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				94,
+				99,
+				100,
+				101,
+				102,
+				104,
+				106,
+				108,
+				112,
+				114,
+				116,
+				118,
+				120,
+				122,
+				124,
+				126,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150,
+				151,
+				153,
+				154,
+				155,
+				156,
+				157,
+				158,
+				159,
+				160,
+				161,
+				162,
+				163,
+				164,
+				165,
+				166,
+				167,
+				168,
+				169,
+				170,
+				171,
+				172,
+				173,
+				174,
+				175,
+				176,
+				177,
+				178,
+				179,
+				180,
+				181,
+				182,
+				183,
+				184,
+				185,
+				186,
+				187,
+				188,
+				189,
+				190,
+				191,
+				192,
+				193,
+				194,
+				195,
+				196,
+				197,
+				198,
+				199,
+				200,
+				201,
+				202,
+				203,
+				204,
+				205,
+				206,
+				207,
+				208,
+				209,
+				210,
+				211,
+				212,
+				213,
+				214,
+				215,
+				216,
+				217,
+				218,
+				219,
+				220,
+				221,
+				222,
+				223,
+				224,
+				225,
+				226,
+				227,
+				228,
+				229,
+				230,
+				231,
+				232,
+				233,
+				234,
+				235,
+				236,
+				237,
+				238,
+				239,
+				240,
+				241
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-mcpu=cortex-m3"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-mthumb"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-mthumb-interwork"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-fno-common"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-fmessage-length=0"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-x"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "assembler-with-cpp"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Og"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-g"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 9,
+					"define" : "DEBUG"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "STM32F103xE"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "USE_HAL_DRIVER"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 10,
+					"path" : "/Users/wugaoyuan/Documents/PlarformIO/Projects/stm32f103ze_Mpu6050/Core/Inc"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Users/wugaoyuan/Documents/PlarformIO/Projects/stm32f103ze_Mpu6050/Drivers/STM32F1xx_HAL_Driver/Inc"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Users/wugaoyuan/Documents/PlarformIO/Projects/stm32f103ze_Mpu6050/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Users/wugaoyuan/Documents/PlarformIO/Projects/stm32f103ze_Mpu6050/Drivers/CMSIS/Device/ST/STM32F1xx/Include"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Users/wugaoyuan/Documents/PlarformIO/Projects/stm32f103ze_Mpu6050/Drivers/CMSIS/Include"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Users/wugaoyuan/Documents/PlarformIO/Projects/stm32f103ze_Mpu6050/USB_DEVICE/App"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Users/wugaoyuan/Documents/PlarformIO/Projects/stm32f103ze_Mpu6050/USB_DEVICE/Target"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Users/wugaoyuan/Documents/PlarformIO/Projects/stm32f103ze_Mpu6050/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Users/wugaoyuan/Documents/PlarformIO/Projects/stm32f103ze_Mpu6050/Middlewares/ST/STM32_USB_Device_Library/Class/AUDIO/Inc"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Users/wugaoyuan/Documents/PlarformIO/Projects/stm32f103ze_Mpu6050/User/MPU6050/eMPL"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Users/wugaoyuan/Documents/PlarformIO/Projects/stm32f103ze_Mpu6050/User/MPU6050"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Users/wugaoyuan/Documents/PlarformIO/Projects/stm32f103ze_Mpu6050/User/SH1106"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Users/wugaoyuan/Documents/PlarformIO/Projects/stm32f103ze_Mpu6050/User/SH1106/menu"
+				}
+			],
+			"language" : "ASM",
+			"sourceIndexes" : 
+			[
+				22
+			]
+		}
+	],
+	"id" : "stm32f103zet6.elf::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-Wl,-gc-sections,--print-memory-usage,-Map=/Users/wugaoyuan/Documents/PlarformIO/Projects/stm32f103ze_Mpu6050/cmake-build-debug/stm32f103zet6.map",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-mcpu=cortex-m3",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-mthumb",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-mthumb-interwork",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-T",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/Users/wugaoyuan/Documents/PlarformIO/Projects/stm32f103ze_Mpu6050/STM32F103ZETX_FLASH.ld",
+				"role" : "flags"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "stm32f103zet6.elf",
+	"nameOnDisk" : "stm32f103zet6.elf",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0,
+				22,
+				26,
+				48,
+				72,
+				242
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				23,
+				24,
+				25,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				93,
+				95,
+				96,
+				97,
+				98,
+				103,
+				105,
+				107,
+				109,
+				110,
+				111,
+				113,
+				115,
+				117,
+				119,
+				121,
+				123,
+				125,
+				127,
+				128,
+				152
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				94,
+				99,
+				100,
+				101,
+				102,
+				104,
+				106,
+				108,
+				112,
+				114,
+				116,
+				118,
+				120,
+				122,
+				124,
+				126,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150,
+				151,
+				153,
+				154,
+				155,
+				156,
+				157,
+				158,
+				159,
+				160,
+				161,
+				162,
+				163,
+				164,
+				165,
+				166,
+				167,
+				168,
+				169,
+				170,
+				171,
+				172,
+				173,
+				174,
+				175,
+				176,
+				177,
+				178,
+				179,
+				180,
+				181,
+				182,
+				183,
+				184,
+				185,
+				186,
+				187,
+				188,
+				189,
+				190,
+				191,
+				192,
+				193,
+				194,
+				195,
+				196,
+				197,
+				198,
+				199,
+				200,
+				201,
+				202,
+				203,
+				204,
+				205,
+				206,
+				207,
+				208,
+				209,
+				210,
+				211,
+				212,
+				213,
+				214,
+				215,
+				216,
+				217,
+				218,
+				219,
+				220,
+				221,
+				222,
+				223,
+				224,
+				225,
+				226,
+				227,
+				228,
+				229,
+				230,
+				231,
+				232,
+				233,
+				234,
+				235,
+				236,
+				237,
+				238,
+				239,
+				240,
+				241
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"path" : "Core/.DS_Store",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Core/Inc/adc.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Core/Inc/dma.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Core/Inc/gpio.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Core/Inc/i2c.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Core/Inc/main.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Core/Inc/stm32f1xx_hal_conf.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Core/Inc/stm32f1xx_it.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Core/Inc/tim.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Core/Inc/usart.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/adc.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/dma.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/gpio.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/i2c.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/main.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/stm32f1xx_hal_msp.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/stm32f1xx_it.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/syscalls.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/sysmem.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/system_stm32f1xx.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/tim.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/usart.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "Core/Startup/startup_stm32f103zetx.s",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/CMSIS/Device/ST/STM32F1xx/License.md",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/CMSIS/Include/cmsis_armcc.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/CMSIS/Include/cmsis_armclang.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/CMSIS/Include/cmsis_compiler.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/CMSIS/Include/cmsis_gcc.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/CMSIS/Include/cmsis_iccarm.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/CMSIS/Include/cmsis_version.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/CMSIS/Include/core_armv8mbl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/CMSIS/Include/core_armv8mml.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/CMSIS/Include/core_cm0.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/CMSIS/Include/core_cm0plus.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/CMSIS/Include/core_cm1.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/CMSIS/Include/core_cm23.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/CMSIS/Include/core_cm3.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/CMSIS/Include/core_cm33.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/CMSIS/Include/core_cm4.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/CMSIS/Include/core_cm7.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/CMSIS/Include/core_sc000.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/CMSIS/Include/core_sc300.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/CMSIS/Include/mpu_armv7.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/CMSIS/Include/mpu_armv8.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/CMSIS/Include/tz_context.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/CMSIS/LICENSE.txt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Drivers/STM32F1xx_HAL_Driver/License.md",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Middlewares/ST/STM32_USB_Device_Library/Class/AUDIO/Inc/usbd_audio.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Middlewares/ST/STM32_USB_Device_Library/Class/AUDIO/Src/usbd_audio.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "USB_DEVICE/App/usb_device.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "USB_DEVICE/App/usb_device.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "USB_DEVICE/App/usbd_audio_if.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "USB_DEVICE/App/usbd_audio_if.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "USB_DEVICE/App/usbd_desc.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "USB_DEVICE/App/usbd_desc.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "USB_DEVICE/Target/usbd_conf.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "USB_DEVICE/Target/usbd_conf.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "User/MPU6050/eMPL/dmpKey.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "User/MPU6050/eMPL/dmpmap.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/MPU6050/eMPL/inv_mpu.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "User/MPU6050/eMPL/inv_mpu.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/MPU6050/eMPL/inv_mpu_dmp_motion_driver.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "User/MPU6050/eMPL/inv_mpu_dmp_motion_driver.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/MPU6050/mpu6050.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "User/MPU6050/mpu6050.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/MPU6050/mpuiic.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "User/MPU6050/mpuiic.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/menu/main_menu.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "User/SH1106/menu/main_menu.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/mui.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "User/SH1106/mui.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/mui_u8g2.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "User/SH1106/mui_u8g2.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/stm32_u8g2.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "User/SH1106/stm32_u8g2.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "User/SH1106/u8g2.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8g2_bitmap.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8g2_box.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8g2_buffer.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8g2_button.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8g2_circle.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8g2_cleardisplay.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8g2_d_memory.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8g2_d_setup.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8g2_font.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8g2_fonts.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8g2_hvline.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8g2_input_value.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8g2_intersection.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8g2_kerning.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8g2_line.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8g2_ll_hvline.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8g2_message.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8g2_polygon.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8g2_selection_list.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8g2_setup.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8log.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8log_u8g2.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8log_u8x8.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "User/SH1106/u8x8.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_8x8.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_byte.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_cad.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_capture.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_d_a2printer.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_d_gp1247ai.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_d_gp1287ai.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_d_gu800.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_d_hd44102.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_d_il3820_296x128.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_d_ist3020.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_d_ist3088.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_d_ist7920.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_d_ks0108.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_d_lc7981.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_d_ld7032_60x32.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_d_ls013b7dh03.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_d_max7219.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_d_pcd8544_84x48.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_d_pcf8812.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_d_pcf8814_hx1230.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_d_s1d15721.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_d_s1d15e06.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_d_sbn1661.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_d_sed1330.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_d_sh1106_64x32.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_d_sh1106_72x40.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_d_sh1107.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_d_sh1108.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_d_sh1122.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_d_ssd1305.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_d_ssd1306_128x32.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_d_ssd1306_128x64_noname.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_d_ssd1306_2040x16.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_d_ssd1306_48x64.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_d_ssd1306_64x32.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_d_ssd1306_64x48.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_d_ssd1306_72x40.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_d_ssd1306_96x16.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_d_ssd1306_96x40.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_d_ssd1309.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_d_ssd1316.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_d_ssd1317.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_d_ssd1318.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_d_ssd1320.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_d_ssd1322.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_d_ssd1325.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_d_ssd1326.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_d_ssd1327.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_d_ssd1329.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_d_ssd1606_172x72.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_d_ssd1607_200x200.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_d_st7511.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_d_st75160.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_d_st75256.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_d_st7528.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_d_st75320.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_d_st7565.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_d_st7567.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_d_st7571.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_d_st7586s_erc240160.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_d_st7586s_jlx384160.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_d_st7586s_s028hn118a.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_d_st7586s_ymc240160.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_d_st7588.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_d_st7920.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_d_stdio.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_d_t6963.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_d_uc1601.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_d_uc1604.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_d_uc1608.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_d_uc1609.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_d_uc1610.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_d_uc1611.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_d_uc1617.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_d_uc1638.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_d_uc1701_dogs102.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_d_uc1701_mini12864.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_debounce.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_display.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_fonts.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_gpio.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_input_value.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_message.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_selection_list.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_setup.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_string.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_u16toa.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "User/SH1106/u8x8_u8toa.c",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "STM32F103ZETX_FLASH.ld",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

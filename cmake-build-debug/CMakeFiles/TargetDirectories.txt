@@ -1,0 +1,3 @@
+/Users/wugaoyuan/Documents/PlarformIO/Projects/stm32f103ze_Mpu6050/cmake-build-debug/CMakeFiles/stm32f103zet6.elf.dir
+/Users/wugaoyuan/Documents/PlarformIO/Projects/stm32f103ze_Mpu6050/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/wugaoyuan/Documents/PlarformIO/Projects/stm32f103ze_Mpu6050/cmake-build-debug/CMakeFiles/rebuild_cache.dir

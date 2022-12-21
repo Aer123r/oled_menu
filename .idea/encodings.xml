@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/User/MPU6050/delay.c" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/User/MPU6050/delay.h" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/User/MPU6050/eMPL/inv_mpu.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/User/MPU6050/mpuiic.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/User/MPU6050/sys.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/User/MPU6050/sys.h" charset="GBK" />
+  </component>
+</project>

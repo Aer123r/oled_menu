@@ -1,0 +1,10 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/wugaoyuan/Documents/PlarformIO/Projects/stm32f103ze_Mpu6050/Core/Startup/startup_stm32f103zetx.s
+
